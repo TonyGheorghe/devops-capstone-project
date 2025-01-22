@@ -3,6 +3,8 @@ Werkzeug==2.1.2
 SQLAlchemy==1.4.46
 
 # Build dependencies
+Flask-Talisman
+Flask-Cors
 Flask==2.1.2
 Flask-SQLAlchemy==2.5.1
 psycopg2-binary==2.9.3
