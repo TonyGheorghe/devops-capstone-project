@@ -13,4 +13,3 @@ migrate = Migrate(app, db)
 def db_create():
     db.create_all()
     click.echo("Database created successfully.")
-
