@@ -181,4 +181,3 @@ def apply_security_headers(response):
     response.headers['Content-Security-Policy'] = "default-src 'self'; object-src 'none'"
     response.headers['Referrer-Policy'] = 'strict-origin-when-cross-origin'
     return response
-
