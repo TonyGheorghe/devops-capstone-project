@@ -326,3 +326,4 @@ class TestAccountService(TestCase):
         account.deserialize(serial)
 
         self.assertEqual(account.date_joined, date.today())
+
