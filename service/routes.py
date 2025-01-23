@@ -171,6 +171,7 @@ def check_content_type(media_type):
         f"Content-Type must be {media_type}",
     )
 
+
 @app.after_request
 def apply_security_headers(response):
     # Setează header-ele de securitate
